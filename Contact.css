@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+.bdy{
+    margin:0px;
+    padding:0px;
+    background: url(Contact.jpg);
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+    font-family: sans-serif;
+}
+.Contactbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color:#fff;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); 
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.Contactbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;   
+}
+.Contactbox input{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+.Contactbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+.Contactbox input[type="submit"]
+{
+     border:none;
+     outline: none;
+     height: 40px;
+     background:#fb2525;
+     color:#fff;
+     font-size:18px ;
+     border-radius: 20px;
+}
+.Contactbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
+.Contactbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.Contactbox a:hover{
+    color:#000;
+    
+}
+.Gbck:hover{
+	background-color: #fff;
+	color: #000;
+	}
+.Gbck{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent ;
+	transition: 0.6s ease;
+	position: absolute;
+}
